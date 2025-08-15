@@ -1,0 +1,47 @@
+body {
+    font-size: 14px;
+   background-color: rgba(0, 0, 0, 0.948);
+}
+.wrapper {
+    position: relative;
+    left: 40%;
+    margin-top: 50px;
+}
+.location {
+    color: greenyellow;
+}
+.card {
+    /* border: 1px solid; */
+    border-radius: 5%;
+    background-color: rgb(29, 27, 27);
+    width: 20%;
+    color: azure;
+    text-align: center;
+}
+img {
+    /* border: 1px solid; */
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.btn {
+  display: block;                /* each link on its own line */
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 4%;
+  width: 60%;
+  height: 35px;
+  margin: 10px auto;              /* center the buttons */
+  text-align: center;
+  line-height: 35px;              /* vertically center text */
+  text-decoration: none;          /* remove underline */
+  color: inherit;                 /* match text color */
+}
+
+.btn:hover {
+  background-color: greenyellow;
+  width: 65%;
+  height: 40px;
+  line-height: 40px;              /* adjust for height change */
+}
+
+
